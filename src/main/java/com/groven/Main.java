@@ -1,11 +1,13 @@
 package com.groven;
 
-public class Main {
-    public static void main(String[] args) throws InterruptedException {
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-        while(true){
-            System.out.println("Hello world!");
-            Thread.sleep(1000);
-        }
+@SpringBootApplication
+public class Main {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Main.class, args);
     }
+
 }
