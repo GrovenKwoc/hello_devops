@@ -1,9 +1,11 @@
 package com.groven;
 
 public class Main {
-    public static void main(String[] args) {
-        for(int i = 0; i< 10; i++) {
+    public static void main(String[] args) throws InterruptedException {
+
+        while(true){
             System.out.println("Hello world!");
+            Thread.sleep(1000);
         }
     }
 }
